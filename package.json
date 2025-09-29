@@ -1,0 +1,24 @@
+{
+  "name": "nuclear-fusion-stocks-landing",
+  "version": "1.0.0",
+  "description": "Nuclear Fusion Power Generation Stocks Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "vercel --prod",
+    "start": "echo 'Static site ready'"
+  },
+  "keywords": [
+    "nuclear-fusion",
+    "stocks",
+    "investment",
+    "japan",
+    "landing-page"
+  ],
+  "author": "Nekoji Stock Investment",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
