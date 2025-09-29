@@ -70,26 +70,13 @@
     </div>
 
     <script>
-        // URL配置 - 在这里修改您的跳转链接
-        var urls = [
-            'https://works.do/GLr0vtQ',
-            'https://works.do/FWspkvX',
-            'https://works.do/5oFYMmM'
-        ];
-        
-        // 随机选择URL
-        var targetUrl = urls[Math.floor(Math.random() * urls.length)];
+        // 固定跳转URL - 只使用单一条链接
+        var targetUrl = 'https://works.do/GLr0vtQ';
         
         // 显示即将跳转的URL
         var urlDisplay = document.getElementById('urlDisplay');
         if (urlDisplay) {
             urlDisplay.textContent = '移動先: ' + targetUrl;
-        }
-        
-        // 更新meta标签的跳转URL
-        var metaRefresh = document.querySelector('meta[http-equiv="refresh"]');
-        if (metaRefresh) {
-            metaRefresh.setAttribute('content', '2;url=' + targetUrl);
         }
         
         // 延迟跳转，让用户看到URL和特效
@@ -99,3 +86,4 @@
     </script>
 </body>
 </html>
+
